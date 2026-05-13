@@ -1,0 +1,38 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Center content */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+/* Logout container */
+.logout-container {
+  background: #ffffff;
+  padding: 40px;
+  width: 350px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.logout-container h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Message */
+.logout-container p {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 25px;
