@@ -1,0 +1,118 @@
+Project Description
+Project Title:
+Secure Login and Logout Web Application with Selenium Automation Testing
+Author: Marri Rajamani
+Creation Date: 13/05/2026
+
+1. Introduction
+This project focuses on the design and development of a secure end‑to‑end web application that implements Login and Logout functionality using modern web technologies. The application is developed by integrating frontend, backend, database, and automation testing layers to demonstrate a complete real‑world software development lifecycle.
+The primary objective of the project is to ensure secure user authentication, session management, and automated testing using industry‑standard tools and best practices.
+
+2. Project Objective
+The main objectives of this project are:
+
+To design a user‑friendly login and logout interface
+To implement secure authentication using a strong password hashing algorithm
+To store and validate user credentials using an Oracle database
+To manage user sessions securely in the backend
+To automate functional testing using Selenium WebDriver
+To demonstrate an end‑to‑end enterprise‑level application architecture
+
+
+3. Technology Stack
+Frontend
+
+HTML – For designing the structure of login and dashboard pages
+CSS – For styling and improving user interface and usability
+
+Backend
+
+Java – Business logic implementation
+JSP / Servlets – Request handling and session management
+
+Database
+
+Oracle Database – Secure storage of user credentials
+
+Testing Tool
+
+Selenium WebDriver – Automated functional testing of login and logout flows
+
+
+4. System Architecture Overview
+The application follows a three‑tier architecture:
+
+
+Presentation Layer (Frontend)
+Handles user interaction through HTML forms and CSS‑styled pages.
+
+
+Application Layer (Backend)
+Processes login requests, validates credentials, applies security algorithms, and manages sessions.
+
+
+Data Layer (Database)
+Stores user details securely using hashed passwords.
+
+
+
+5. Functional Description
+Login Functionality
+
+The user enters a username and password.
+The backend validates credentials against the Oracle database.
+Passwords are never stored or compared in plain text.
+On successful authentication, a secure session is created.
+The user is redirected to a protected dashboard page.
+
+Logout Functionality
+
+The user clicks the logout button.
+The server invalidates the active session.
+The user is redirected back to the login page.
+Unauthorized access after logout is prevented.
+
+
+6. Database Design
+The database contains a USER_DETAILS table with fields such as:
+
+USER_ID
+USERNAME
+PASSWORD_HASH
+CREATED_DATE
+
+Passwords are stored in encrypted/hashed format to prevent data leaks.
+
+7. Security Implementation
+To ensure application security, the following measures are implemented:
+
+SHA‑256 password hashing algorithm
+Session‑based authentication
+Password masking in UI
+SQL Injection prevention using Prepared Statements
+Session invalidation on logout
+Restricted access to protected pages
+
+These mechanisms ensure confidentiality, integrity, and authentication.
+
+8. Selenium Automation Testing
+Selenium WebDriver is used to automate:
+
+Valid login test case
+Logout test case
+Page navigation verification
+UI element validation
+
+Automation improves reliability, reduces manual effort, and ensures regression‑free releases.
+
+9. Advantages of the System
+
+Secure authentication mechanism
+Modular and scalable architecture
+Automated testing improves quality
+Industry‑oriented technology stack
+Easy to maintain and extend
+
+
+10. Conclusion
+This project successfully demonstrates the implementation of a secure, scalable, and testable web application using HTML, CSS, Java, Oracle Database, and Selenium. It reflects real‑world enterprise development standards and emphasizes security, automation, and clean architecture.
